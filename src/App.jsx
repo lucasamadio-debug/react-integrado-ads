@@ -44,7 +44,6 @@ function App() {
         <button type="submit">Adicionar</button>
       </form>
 
-      {/* <ListaDeTarefas tarefas={tarefas} /> */}
       <ul className="lista">
         {
           tarefas.map((item) => {
